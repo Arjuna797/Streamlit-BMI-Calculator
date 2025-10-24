@@ -1,0 +1,11 @@
+# This file is for running the app with Docker, not for Streamlit Cloud
+version: "3.8"
+
+services:
+  app:
+    # This tells Docker to build an image from the Dockerfile in the current directory
+    build: .
+    # This is the port mapping section
+    ports:
+      # Maps port 8501 on your computer (left) to port 8501 inside the container (right)
+      - "8501:8501"

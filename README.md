@@ -1,22 +1,44 @@
-# ⚖️ Interactive BMI Calculator (Streamlit & Docker)
+# ⚖️ Interactive BMI Calculator
 
-This is a simple web application built with Streamlit that calculates a user's Body Mass Index (BMI). The project is fully configured to run locally with Docker or be deployed to Streamlit Community Cloud.
+A simple web application built with Streamlit to calculate your Body Mass Index (BMI) easily.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+
+*(Note: Replace the URL above with your app's URL after you deploy it!)*
+
 ## 🚀 Features
 
 * **Easy Input:** Enter your weight (in kg) and height (in cm).
-* **Instant Calculation:** Get your BMI score with the click of a button.
-* **Clear Results:** Displays the BMI score and the corresponding category (Underweight, Normal, Overweight, or Obesity).
+* **Instant Calculation:** Click a button to see your BMI.
+* **Clear Results:** Displays the BMI score and the corresponding category (Underweight, Normal, Overweight, or Obesity) with a color-coded message.
 * **Helpful Info:** A sidebar explains what BMI is and lists the standard categories.
-## 🚀 Run Locally with Docker
 
-Use the appropriate command based on your operating system:
+*(Tip: Take a screenshot of your running app and add it here.)*
 
-```bash
-# On Ubuntu / Linux
-docker-compose up -d
+## 🏃 How to Run Locally
 
-# On Windows
-docker compose up -d
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
 
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
+3.  **Install the dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+4.  **Run the app:**
+    ```bash
+    streamlit run bmi_app.py
+    ```
+
+## ☁️ Deployment
+
+This app is deployed on **Streamlit Community Cloud**.
